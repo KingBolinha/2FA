@@ -1,70 +1,27 @@
-🔐 Discord 2FA Generator Bot
+# 🔐 Discord 2FA Generator Bot
 
-A lightweight Discord bot built with discord.js that generates Time-based One-Time Passwords (TOTP) using a provided secret key.
-Designed for simplicity, security, and real-time usage via slash commands.
+![GitHub stars](https://img.shields.io/github/stars/KingBolinha/GeradorRockstar?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/KingBolinha/GeradorRockstar?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/KingBolinha/GeradorRockstar?style=for-the-badge)
+![License](https://img.shields.io/github/license/KingBolinha/GeradorRockstar?style=for-the-badge)
 
-✨ Features
-🔑 Generate 2FA/TOTP codes using a secret key
-⚡ Slash command support (/gerar2fa)
-🔒 Ephemeral responses (private to the user)
-📦 Clean and minimal architecture
-🚀 Fast and easy deployment
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![OTPLib](https://img.shields.io/badge/OTPLib-TOTP-orange?style=for-the-badge)
 
-⚙️ Command
-/gerar2fa
+---
 
-Generate a 2FA code based on a secret key.
+## ✨ Features
 
-Options:
+- 🔑 Geração de códigos **2FA (TOTP)** via Discord  
+- ⚡ Comando slash (`/gerar2fa`)  
+- 🔒 Respostas privadas (ephemeral)  
+- 📦 Leve e rápido  
+- 🧠 Compatível com Google Authenticator, Authy, etc  
 
-key (string, required) → Secret key used for TOTP generation
+---
 
-Example:
-/gerar2fa key: JBSWY3DPEHPK3PXP
+## 🚀 Uso
 
-🧠 How It Works
-
-The bot uses the otplib library to generate Time-based One-Time Passwords (TOTP), following the same standard used by apps like:
-
-Google Authenticator
-Microsoft Authenticator
-Authy
-
-Each generated code:
-
-Is time-based
-Expires automatically (usually every 30 seconds)
-
-🛠️ Tech Stack
-Node.js
-discord.js v14
-otplib
-
-🚀 Setup
-Clone the repository:
-git clone https://github.com/seu-user/seu-repo.git
-
-Install dependencies:
-npm install
-
-Configure environment variables:
-BOT_TOKEN=seu_token_aqui
-CLIENT_ID=seu_client_id
-GUILD_ID=seu_guild_id
-
-Run the bot:
-node index.js
-
-🔐 Security Notes
-Never expose your bot token publicly
-Avoid logging or storing secret 2FA keys
-Use ephemeral responses to protect sensitive data
-
-📌 Use Cases
-Internal tools for developers
-Automation of authentication workflows
-Quick access to TOTP codes inside Discord
-
-📄 License
-
-This project is open for use and modification. Consider adding an appropriate license (MIT recommended).
+```bash
+/gerar2fa key: SUA_CHAVE_2FASS
