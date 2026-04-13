@@ -24,10 +24,10 @@
 ## 🚀 Uso
 
 ```⚙️ Instalação
-git clone https://github.com/KingBolinha/GeradorRockstar.git
-cd GeradorRockstar
+git clone https://github.com/KingBolinha/2FA.git
+cd 2FA
 npm install
-node index.js
+node bot.js
 
 ```bash
 /gerar2fa key: SUA_CHAVE_2FASS
