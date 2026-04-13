@@ -23,7 +23,7 @@
 
 ## 🚀 Uso
 
-⚙️ Instalação
+```⚙️ Instalação
 git clone https://github.com/KingBolinha/GeradorRockstar.git
 cd GeradorRockstar
 npm install
