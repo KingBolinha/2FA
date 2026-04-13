@@ -25,3 +25,9 @@
 
 ```bash
 /gerar2fa key: SUA_CHAVE_2FASS
+
+##⚙️ Instalação
+git clone https://github.com/KingBolinha/GeradorRockstar.git
+cd GeradorRockstar
+npm install
+node index.js
