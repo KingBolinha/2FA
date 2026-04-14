@@ -17,7 +17,7 @@
 - ⚡ Comando slash (`/gerar2fa`)  
 - 🔒 Respostas privadas (ephemeral)  
 - 📦 Leve e rápido  
-- 🧠 Compatível com Discord 
+
 
 ---
 
